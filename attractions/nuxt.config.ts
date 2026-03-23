@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["@nuxt/icon", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxt/ui"],
+  modules: ["@nuxt/icon", "@nuxtjs/i18n", "@nuxt/fonts"],
   icon: {
     mode: "css",
     cssLayer: "base",
