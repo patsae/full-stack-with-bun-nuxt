@@ -1,0 +1,177 @@
+/* app/assets/css/routing.css */
+
+.routing-container, .dynamic-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #111827;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.description {
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Badge styles */
+.badge {
+  display: inline-block;
+  background-color: #fef3c7;
+  color: #b45309;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* Highlight styles */
+.highlight {
+  color: #059669;
+}
+
+code {
+  background-color: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #374151;
+}
+
+.code-block-container {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.code-title {
+  margin-top: 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.code-block {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1.25rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.code-block code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* Links and Lists */
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #111827;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.link-item:hover {
+  background-color: #e5e7eb;
+  border-color: #d1d5db;
+  transform: translateY(-2px);
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.link-text {
+  flex-grow: 1;
+}
+
+.link-text h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+}
+
+.link-text p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+.arrow {
+  color: #9ca3af;
+  font-size: 1.25rem;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  background-color: #111827;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #374151;
+}
+
+.btn-block {
+  display: block;
+  text-align: center;
+  background-color: #111827;
+  color: #ffffff;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-block:hover {
+  background-color: #374151;
+}
