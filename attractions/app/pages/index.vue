@@ -80,6 +80,20 @@
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
           </div>
         </NuxtLink>
+
+        <!-- defineModel (defineModal) Demo -->
+        <NuxtLink to="/defineModal" class="group flex items-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 hover:border-indigo-300 hover:-translate-y-1">
+          <div class="w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+          </div>
+          <div class="ml-6 flex-1">
+            <h2 class="text-xl font-bold text-slate-800 group-hover:text-indigo-600 transition-colors">defineModel</h2>
+            <p class="text-slate-500 mt-1 text-sm">Two-way Data Binding</p>
+          </div>
+          <div class="text-slate-300 group-hover:text-indigo-500 opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+          </div>
+        </NuxtLink>
       </div>
     </div>
   </div>
