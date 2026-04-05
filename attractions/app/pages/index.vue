@@ -67,6 +67,14 @@
           </div>
         </NuxtLink>
 
+        <!-- State Management -->
+        <NuxtLink to="/state" class="group flex items-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 hover:border-pink-300 hover:-translate-y-1">
+          <div class="w-16 h-16 bg-pink-50 rounded-2xl flex items-center justify-center text-pink-600 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" /></svg>
+          </div>
+          <div class="ml-6 flex-1">
+            <h2 class="text-xl font-bold text-slate-800 group-hover:text-pink-600 transition-colors">State Management</h2>
+            <p class="text-slate-500 mt-1 text-sm">useState & Reactivity</p>
         <!-- Layouts Demo -->
         <NuxtLink to="/layouts-demo" class="group flex items-center p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 hover:border-pink-300 hover:-translate-y-1">
           <div class="w-16 h-16 bg-pink-50 rounded-2xl flex items-center justify-center text-pink-600 group-hover:scale-110 transition-transform duration-300">
