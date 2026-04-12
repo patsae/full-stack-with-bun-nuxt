@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.BASE_URL,
     head: {
-      title: "theAttractions",
+      title: process.env.APP_NAME,
       link: [{ rel: "icon", type: "image/x-icon", href: "images/favicon.png" }],
       meta: [
         {
