@@ -76,6 +76,12 @@ export default defineNuxtConfig({
     mode: "css",
     cssLayer: "base",
   },
+
+  //ปิด color mode
+  ui: {
+    colorMode: false,
+    fonts: false,
+  },
 });
 
 ```
@@ -111,3 +117,10 @@ export default defineNuxtConfig({
 # Workshop
 
 สร้างเว็บไซต์ theAttraction
+
+- index.vue หน้าแสดงรายการบทความทั้งหมด
+- login.vue หน้าฟอร์ม login
+- 401.vue หน้าแสดงข้อผิดพลาด กรณีที่ยังไม่มีการเข้าสู่ระบบ
+- [slag].vue หน้าแสดงข้อผิดพลาด กรณีที่ไม่มีหน้าให้แสดง
+- places/[:id].vue หน้าแสดงบทความ
+- form.vue หน้าแสดงฟอร์มเขียนบทความ
