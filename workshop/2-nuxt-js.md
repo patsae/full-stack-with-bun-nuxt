@@ -9,7 +9,7 @@ APP_ENV=development
 APP_NAME=theAttractions
 APP_BASEURL=/theAttractions
 
-PORT=3000
+PORT=3100
 ```
 
 ### ติดตั้ง Package
@@ -108,7 +108,7 @@ export default defineNuxtConfig({
 {
     ...,
     "scripts": {
-        "dev": "bun --env-file=.env nuxt dev",
+        "dev:app": "bun --filter @attraction/app dev"
     },
     ...
 }
